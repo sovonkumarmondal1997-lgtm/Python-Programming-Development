@@ -1,0 +1,14 @@
+{
+    "name": "Selmon Bhoi",
+    "age": 60,
+    "city": "Mumbai",
+    "hobbies": [
+        "acting",
+        "dancing",
+        "singing"
+    ],
+    "education": {
+        "graduation": "B.A.",
+        "post_graduation": "M.A."
+    }
+}
