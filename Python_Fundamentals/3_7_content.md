@@ -1,5 +1,5 @@
 ## operators in python:
-1. arithmetic operators (additional, substruction, multiplication, division, integer-division, modules, power-off)
+1. arithmetic operators (addition, substruction, multiplication, division, integer-division, modules, power-off)
 2. relational operators (>, <, >=, <=, ==, !=)
 3. logical operators (and, or, not)
 4. bitwise operators (bitwise_and, bitwise_or, bitwise_not, bitwise_xor, bitwise_leftshift, bitwise_rightshift)

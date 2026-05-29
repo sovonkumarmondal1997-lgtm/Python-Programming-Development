@@ -10,6 +10,7 @@
 1. working with variable in python 
 2. different way to create variable in python
 
+# others:
 1. python comments
 2. introduction with compailation, keyword, identifiers
 2. dynmic binding and static binding
