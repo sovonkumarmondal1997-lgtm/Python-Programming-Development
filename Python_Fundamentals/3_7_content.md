@@ -7,8 +7,8 @@
 6. membership operators ('in' / 'not in')
 
 ## if/else:
-1. intro to if/else
-2. into to if/elif/else
+1. intro to if/else statement
+2. intro to if/elif/else statement
 
 ## intro to modules:
 1. math
@@ -25,4 +25,4 @@
 1. while loop
 2. for loop
 3. nested loop
-4. loop control statement (break, continue, pass)
+4. loop control statements (break, continue, pass)

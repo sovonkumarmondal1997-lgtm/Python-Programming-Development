@@ -1,5 +1,5 @@
 ## how to create string:
-1. singleline string (''/"")
+1. singleline string (' '/" ")
 2. multiline string (''' '''/""" """)
 3. creating string with type conversion
 
@@ -17,7 +17,7 @@
 1. Arithmetic Operations (string concatination or + / multiplixation operation)
 2. Relational Operations as per ascii values (<, >, <=, >=, ==, !=)
 3. Logical Operations (and, or, not)
-4. Loops on string (iterate every single item of the string)
+4. Loops on string (iterate every single item of the string with for loop)
 5. Membership Operations ('in' / 'not in')
 
 ## common functions:
@@ -29,11 +29,11 @@
 6. sum()
 
 ## string function:
-1. capitalize
-2. swapcase
-3. upper
-4. lower
-5. title
+1. capitalize()
+2. swapcase()
+3. upper()
+4. lower()
+5. title()
 6. count()
 7. find()
 8. index()
