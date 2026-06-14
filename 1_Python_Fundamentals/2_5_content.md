@@ -74,3 +74,28 @@ A simple mental framework to differentiate the two:
    Dynamic Typing (e.g., Python): A variable is never permanently tied to one static data type. It can dynamically hold entirely different types of values over time as the code executes.
 
 
+# 2.3 fyndamentals file content:
+
+1. Static vs. Dynamic Software:
+
+2. Handling User Input
+
+3. Type Conversion (Casting):
+
+    Implicit Type Conversion:
+
+    Explicit Type Conversion:
+
+### Python Literals:
+
+1. Numerical Literals
+
+    Integer Literals (Different Bases):
+
+    Float Literals:
+
+    Complex Literals:
+
+2. String Literals (6 Representations)
+
+3. Boolean & Special Literals
