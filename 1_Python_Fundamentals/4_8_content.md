@@ -89,3 +89,39 @@
     B. find()
 
     C. index()
+
+# 4_4 string_fnctions file content:
+
+1. Prefix and Suffix Matching
+
+    endswith(suffix)
+
+    startswith(prefix)
+
+2. String Formatting via .format()
+
+    Implicit Index Alignment
+
+    Explicit Positional Index Alignment
+
+3. Structural Validation Methods
+
+    isalnum()
+
+    isalpha()
+
+    isdigit()
+
+    isidentifier()
+
+4. String Splitting and Joining
+
+    split(delimiter)
+
+    join(iterable)
+
+5. Substring Modification & Formatting
+
+    replace(old, new)
+
+    strip()
