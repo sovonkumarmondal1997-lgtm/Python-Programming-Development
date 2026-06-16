@@ -47,3 +47,23 @@
 4. Loops on Strings
 
 5. Membership Operations
+
+# 4_3 string_fnctions file content:
+
+1. Global Built-in Functions
+
+    A. len() (Length)
+
+    B. max() (Maximum Value)
+
+    C. min() (Minimum Value)
+
+    D. sorted() (Sorting Strings)
+
+2. Advanced Implementations using sum()
+
+    Strategy A: Summing Absolute ASCII/Unicode Values
+
+    Strategy B: Summing Digits Stored inside a Numeric String
+
+    Strategy C: Counting Characters via Boolean Flag Aggregation
