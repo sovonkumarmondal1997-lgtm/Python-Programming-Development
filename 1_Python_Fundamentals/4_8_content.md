@@ -67,3 +67,25 @@
     Strategy B: Summing Digits Stored inside a Numeric String
 
     Strategy C: Counting Characters via Boolean Flag Aggregation
+
+# 4_4 string_fnctions file content:
+
+1. Casing Transformation Methods
+
+    capitalize()
+
+    title()
+
+    upper()
+
+    lower()
+
+    swapcase()
+
+2. Counting & Search Methods
+
+    A. count()
+
+    B. find()
+
+    C. index()
