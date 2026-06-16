@@ -1,4 +1,4 @@
-# 4_1 strings file content:
+# 4_1 strings_intro file content:
 
 1. Creating Strings
 
@@ -29,3 +29,21 @@
     A. The Immutability Rule
 
     B. Deleting Strings
+
+# 4_2 strings_operation file content:
+
+1. Arithmetic Operations
+
+    String Concatenation (+)
+
+    String Multiplication / Replication (*)
+
+2. Relational Operations
+
+    A. Key Evaluation Rules (As per ASCII value)
+
+3. Logical Operations
+
+4. Loops on Strings
+
+5. Membership Operations
