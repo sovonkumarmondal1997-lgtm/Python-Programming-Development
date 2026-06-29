@@ -1,62 +1,87 @@
-## introduction of list:
-1. explain list with example
-2. Why we used list in programming?
-3. Array vs List
-4. How array and list store in the memory address with example
-5. Characterstics of a List
+# Python Lists Notes
 
-## creating list in different way:
-1. empty list
-2. 1D list
-3. 2D list
-4. 3D list
-5. Hetrogenious list
-6. Creating list using Type conversion
+## File: 1_1_list.ipynb
+### 1. Introduction to Lists
+- What are Lists?
+- Why are Lists used in programming?
+- Lists vs Arrays
+- How arrays and lists store data in memory
+- Characteristics of a List
 
-## accessing items from the list: indexing and slicing
-1. positive indexng for 1D, 2D and 3D list
-2. negative indexng for 1D, 2D and 3D list
-3. positive slicing
-4. negative slicing
+## File: 1_2_list.ipynb
+### 1. Creating Lists
+- Empty list
+- 1D (Homogeneous) list
+- 2D list
+- 3D list
+- Heterogeneous list
+- Creating a list using type conversion (`list()`)
 
-## editing a list (adding,update,edit):
-1. append() for single item
-2. extend() for multiple item 
-3. insert() for any desired location
-4. edit and update single item through positive and negative indexing
-5. edit and update multiple items through positive and negative slicing
-6. editing or updating multiple items through hybrid slicing
+### 2. Accessing Items from a List
+- Positive indexing (1D)
+- Positive indexing (2D)
+- Positive indexing (3D)
+- Negative indexing (1D)
+- Negative indexing (2D)
+- Negative indexing (3D)
+- Positive slicing
+- Negative slicing
 
-## delete items from the list:
-1. delete the full list with del keyword
-2. delete single item from the list through positive indexing and negative indexing
-3. delete multiple items from the list through positive slicing and negative slicing
-4. delete any particular item through remove() function
-5. delete items through pop() function
-5. delete or clear all the list item thrugh clear() function
+## File: 1_3_list.ipynb
+### 1. Editing a List
+- append()
+- extend()
+- insert()
+- Update using positive indexing
+- Update using negative indexing
+- Update using positive slicing
+- Update using negative slicing
+- Update using hybrid slicing
 
-## operations in list:
-1. arithmetic ('+' / '*')
-2. membership (in / not in)
-3. loop (iterate every item of the list through for loop)
+### 2. Deleting Items
+- del
+- Delete using positive indexing
+- Delete using negative indexing
+- Delete using positive slicing
+- Delete using negative slicing
+- remove()
+- pop()
+- clear()
 
-## list function:
-1. len()
-2. min()
-3. max()
-4. sorted()
-5. sorted(reverse = True)
-6. sum()
-7. count()
-8. index()
-9. reverse()
-10. sort()
-11. copy()
+## File: 1_4_list.ipynb
+### 1. Operations
+- Arithmetic (+, *)
+- Membership (in, not in)
+- Traversal using for loop
 
-## list comprehension:
-1. introduction to list comprehension
-2. advantage of list comprehension
-3. nested list comprehension 
-4. traversing a list (itemwise, indexwise)
-5. zip() function
+### 2. List Functions
+- len()
+- min()
+- max()
+- sorted()
+- sorted(reverse=True)
+- sum()
+- count()
+- index()
+- reverse()
+- sort()
+- copy()
+
+## File: 1_5_list_comprehension.ipynb
+### List Comprehension
+- Introduction
+- Advantages
+- Syntax
+- Conditional list comprehension
+- Nested list comprehension
+
+## File: 1_6_list.ipynb
+### Traversing Lists
+- Item-wise traversal
+- Index-wise traversal
+
+### zip()
+- Introduction
+- Combine multiple lists
+- zip() with list comprehension
 
