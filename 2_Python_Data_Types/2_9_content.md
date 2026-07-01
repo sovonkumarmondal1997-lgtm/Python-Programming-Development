@@ -1,104 +1,192 @@
-## introduction to tuple:
-1. what is tuple and characteristic of a tuple
-2. creating a tuple (empty tuple, creating tuple with single item, homogenious tuple, hetrogenious tuple, 2D tuple, creating tuple with type conversion)
-3. accessing items from the tuple [indexing (positive and negative) and slicing (positive and negative)]
-4. adding, updating, editing items can not possible after aggign items into a tuple. only possible to delete whole tuple with 'del' keyword
+# Python Collections Summary Notes
 
-## operations on tuple:
-1. arithmetic operation ('+'/'*')
-2. membership operation ('in'/'not in')
-3. iteration in tuple items through for loop
+## File: `2_1_tuple.ipynb`
 
-## tuple function:
-1. len()
-2. min()
-3. max()
-4. sum()
-5. sorted()
-6. sorted(reverse = True)
-7. count()
-8. index()
+### Important Concepts
 
-## others:
-1. different between list and tuple 
-2. tuple unpacking
-3. zipping tuple
+-   What is a Tuple?
+-   Characteristics of a Tuple
 
-## introduction of sets:
-1. what is sets and its characteristics
-2. creating sets (empty set, 1D and homogenous set, hetrogenious set, creating set using type conversions)
-3. add single item to set using add() function
-4. add multiple items toset using update() function
-5. remove items from a set using remove(), discard(), pop() function
-6. clear a whole set using clear() function
+### 1. Creating a Tuple
 
-## sets operation:
-1. union 
-2. intersection
-3. difference
-4. symmetric difference
-5. membership testing (in/not in)
-6. iteration over a set
+-   Empty tuple
+-   Single element tuple
+-   Homogeneous tuple
+-   Heterogeneous tuple
+-   Nested (2D) tuple
+-   Creating tuple using `tuple()`
+-   Type conversion to tuple
 
-## sets functions:
-1. len()
-2. sum()
-3. min()
-4. max()
-5. sorted()
-6. sorted(reverse = True)
-7. union()
-8. update()
-9. intersection()
-10. intersection_update()
-11. difference()
-12. difference_update()
-13. symmetric_difference()
-14. symmetric_difference_update()
-15. isdisjoint()
-16. issubset()
-17. issuperset()
-18. copy()
-19. forzenset()
-20. 2D frozenset, 3D frozenset
-21. set comprehension 
+### 2. Accessing Items
 
-## intro to dictionary:
-1. what iis dictionary and its characteristics 
-2. creating dictionary (empty dictionary, 1D dictionary, homogenious dictionary, dictionary with mixed keys, 2D dictionary, 3D dictionary, creating a dictionary using sequence of items and dict() constructor, creating a dictionary using duplicate keys, creating a dictionary using mutable items as keys are not allowed in dictionary)
+-   Positive indexing
+-   Negative indexing
+-   Positive slicing
+-   Negative slicing
 
-## accessing items or values from a dictioary:
-1. Accessing values from dictionary using keys
-2. Accessing values from dictionary using get() function
-3. Accessing values from a 2D dictionary using keys
-4. Accessing values from a 2D dictionary using get() function
+### 3. Editing Items
 
-## add or remove values or items to dictionary:
-5. adding new key value pair to dictionary using key and value
-6. adding new kay value pair to a 2D dictionary
-7. removing a key value pair from dictionary using pop() method
-8. removing last inserted key value pair from dictionary using popitem() method
-9. delete a dictionary using del keyword
-10. delete or remove a key value pair from dictionary using del keyword
-11. clear all items from dictionary using clear() method
-12. editing a existing value of a key in dictionary
+-   Tuple immutability
 
-## dictionary operations:
-1. membership operators in dictionary
-2. iterating through a dictionary using for loop
+### 4. Adding Items
 
-## dictionary functions:
-1. len()
-2. sorted()
-3. sorted(reverse = True)
-4. items()
-5. keys()
-6. values()
-7. update()
+-   Why append()/insert() are not supported
 
-## dictionary comprehension:
-1. dictionary comprehension 
-2. dictionary comprehension using a existing dictionary
-3. dictionary comprehension using zip() function
-4. dictionary comprehension using if condition
-5. nested dictionary comprehension
+### 5. Deleting Items
+
+-   Deleting an entire tuple
+-   Why element deletion is not allowed
+
+### 6. Operations
+
+-   Concatenation (+)
+-   Repetition (\*)
+-   Membership operators
+-   Iteration
+
+------------------------------------------------------------------------
+
+## File: `2_2_tuple.ipynb`
+
+### Important Concepts
+
+-   Tuple functions
+-   Tuple vs List
+-   Tuple unpacking
+-   Star unpacking
+-   zip()
+
+### Functions
+
+-   len()
+-   min()
+-   max()
+-   sum()
+-   sorted()
+-   count()
+-   index()
+
+### Other Topics
+
+-   Basic unpacking
+-   Star unpacking
+-   zip() for parallel iteration
+
+------------------------------------------------------------------------
+
+## File: `2_3_sets.ipynb`
+
+### Important Concepts
+
+-   What is a Set?
+-   Characteristics of a Set
+
+### Creating Sets
+
+-   Empty set
+-   Homogeneous set
+-   Heterogeneous set
+-   set() constructor
+-   Type conversion
+
+### Other Topics
+
+-   Duplicate removal
+-   Immutable elements
+-   No indexing
+-   Iteration
+
+------------------------------------------------------------------------
+
+## File: `2_4_sets.ipynb`
+
+### Important Concepts
+
+-   Union
+-   Intersection
+-   Difference
+-   Symmetric Difference
+-   Membership
+-   Iteration
+
+------------------------------------------------------------------------
+
+## File: `2_5_sets.ipynb`
+
+### Important Concepts
+
+-   len()
+-   sum()
+-   min()
+-   max()
+-   sorted()
+-   union()
+-   update()
+-   intersection()
+
+------------------------------------------------------------------------
+
+## File: `2_6_sets.ipynb`
+
+### Important Concepts
+
+-   isdisjoint()
+-   issubset()
+-   issuperset()
+-   copy()
+-   frozenset()
+-   Frozenset operations
+-   Frozenset as dictionary key
+
+------------------------------------------------------------------------
+
+## File: `2_7_dict.ipynb`
+
+### Important Concepts
+
+-   What is a Dictionary?
+-   Characteristics of a Dictionary
+
+### Creating Dictionaries
+
+-   Empty dictionary
+-   1D dictionary
+-   2D dictionary
+-   3D dictionary
+-   dict()
+-   Duplicate keys
+-   Mutable vs immutable keys
+
+### Accessing Values
+
+-   \[\]
+-   get()
+-   Nested dictionaries
+
+### CRUD
+
+-   Add items
+-   Update items
+-   pop()
+-   popitem()
+-   del
+-   clear()
+
+------------------------------------------------------------------------
+
+## File: `2_8_dict.ipynb`
+
+### Important Concepts
+
+-   Membership
+-   Traversal
+-   keys()
+-   values()
+-   items()
+-   len()
+-   sorted()
+-   update()
+-   Dictionary comprehension
+-   Conditional comprehension
+-   zip() with dictionaries
+-   Nested dictionary comprehension
